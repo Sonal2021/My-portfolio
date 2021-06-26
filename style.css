@@ -1,0 +1,61 @@
+body {
+  background-image: url("images.jpg");
+  background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1 {
+  font-family: "Brush Script MT", cursive;
+  font-size: 50px;
+  color: orangered;
+  margin-left: 20px;
+}
+.p1 {
+  font-family: "Brush Script MT", cursive;
+  font-size: 35px;
+  color: orangered;
+}
+.p2 {
+  font-family: "Brush Script MT", cursive;
+  font-size: 35px;
+  color: green;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a5fbfe;
+  font-family: monospace;
+  font-size: 20px;
+  height: 70px;
+}
+.menu a {
+  padding: 10px;
+}
+
+.profile {
+  display: flex;
+}
+.info {
+  padding: 50px;
+  text-align: justify;
+}
+.grid {
+  display: flex;
+  margin: 20px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.item {
+  margin: 30px;
+  border: 6px solid brown;
+}
+ol,
+li {
+  font-size: 21px;
+  font-family: "Brush Script MT";
+  color: red;
+}
+
+  

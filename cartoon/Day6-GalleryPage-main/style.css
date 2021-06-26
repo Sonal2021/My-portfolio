@@ -1,0 +1,126 @@
+body {
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-color: yellow;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Brush Script MT", cursive;
+  font-size: 50px;
+  color: orangered;
+  margin-left: 20px;
+}
+.p1 {
+  font-family: "Brush Script MT", cursive;
+  font-size: 35px;
+  color: orangered;
+}
+.p2 {
+  font-family: "Brush Script MT", cursive;
+  font-size: 35px;
+  color: green;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a5fbfe;
+  font-family: monospace;
+  font-size: 20px;
+  height: 70px;
+}
+.menu a {
+  padding: 10px;
+}
+
+.profile {
+  display: flex;
+}
+.info {
+  padding: 50px;
+  text-align: justify;
+}
+.grid {
+  display: flex;
+  margin: 20px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.item {
+  margin: 30px;
+  border: 6px solid brown;
+}
+ol,
+li {
+  font-size: 21px;
+  font-family: "Brush Script MT";
+  color: red;
+}
+
+.item:hover {
+  transform: scale(1.2);
+}
+
+a:link {
+  color: green;
+}
+a:visited {
+  color: #215b60;
+}
+
+a {
+  text-decoration: none;
+}
+.item {
+  position: relative;
+}
+.item p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  font-size: 20px;
+  transform: translate(-50%, -50%);
+  font-family: "FANTASY";
+  color: red;
+}
+
+.item:hover p {
+  opacity: 1;
+}
+
+.item:hover img {
+  opacity: 0.2;
+}
+
+.gallery {
+  display: flex;
+}
+
+.galleyitem {
+  background-color: whitesmoke;
+  width: 340;
+  height: 400;
+  margin: 50;
+  text-align: center;
+}
+
+.polaroid {
+  margin: 20;
+}
+.caption {
+  font-family: "Brush Script MT", cursive;
+  font-size: 20px;
+  color: orangered;
+}
+
+.galleyitem2 {
+  background-color: whitesmoke;
+  width: 340;
+  height: 400;
+  margin: 50;
+  text-align: center;
+  margin-top: 220;
+}
